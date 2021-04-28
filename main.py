@@ -3,6 +3,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from unidecode import unidecode
+from matplotlib.backends.backend_agg import RendererAgg
+
+#Contenção de erro no Mplotlib
+_lock = RendererAgg.lock
 
 #Buscando os dados
 url = 'https://pt.wikipedia.org/wiki/Lista_de_estados_brasileiros_por_n%C3%BAmero_de_munic%C3%ADpios'
@@ -74,22 +78,24 @@ def regiao_plot(select_r):
     st.write(' ')
 
     #Número de municipios por estado
-    fig1, ax = plt.subplots(figsize=(8, 5))
-    sns.barplot(x=regiao['Número de municípios'], y=regiao['Estado'].values, palette='Set2')
-    ax.set_title('Número de municípios por estado', weight = 'bold', size=18)
-    ax.set_xlabel('Quantidade de municípios', weight = 'bold')    
-    fig1.tight_layout()
-    st.pyplot(fig1)
+    with _lock:
+        fig1, ax = plt.subplots(figsize=(8, 5))
+        sns.barplot(x=regiao['Número de municípios'], y=regiao['Estado'].values, palette='Set2')
+        ax.set_title('Número de municípios por estado', weight = 'bold', size=18)
+        ax.set_xlabel('Quantidade de municípios', weight = 'bold')    
+        fig1.tight_layout()
+        st.pyplot(fig1)
 
-    st.write(' ')
+        st.write(' ')
 
     #Número de habitantes por estado
-    fig2, ax = plt.subplots(figsize=(8, 5))
-    sns.barplot(x=regiao['Habitantes por estado'], y=regiao['Estado'].values, palette='Set2')
-    ax.set_title('Número de habitantes por estado', weight = 'bold', size=18)
-    ax.set_xlabel('Quantidade de habitantes', weight = 'bold')
-    fig2.tight_layout()
-    st.pyplot(fig2)
+    with _lock:
+        fig2, ax = plt.subplots(figsize=(8, 5))
+        sns.barplot(x=regiao['Habitantes por estado'], y=regiao['Estado'].values, palette='Set2')
+        ax.set_title('Número de habitantes por estado', weight = 'bold', size=18)
+        ax.set_xlabel('Quantidade de habitantes', weight = 'bold')
+        fig2.tight_layout()
+        st.pyplot(fig2)
 
 st.markdown('''# As macrorregiões do Brasil
 ## **Algumas informações sobre as regiões brasileiras**
