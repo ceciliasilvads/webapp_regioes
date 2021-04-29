@@ -5,7 +5,7 @@ import seaborn as sns
 from unidecode import unidecode
 from matplotlib.backends.backend_agg import RendererAgg
 
-#Contenção de erro no Mplotlib
+#Contenção de erro no Maplotlib
 _lock = RendererAgg.lock
 
 #Buscando os dados
@@ -55,7 +55,7 @@ def regiao_plot(select_r):
     
     #Número de estados
     num_estados = regiao2['Unidadesfederativas'].values
-    st.write('### **Numero de estados: **', str(num_estados[0]))
+    st.write('### **Numero de estados + Distrito Federal: **', str(num_estados[0]))
     
     st.write(' ')
 
@@ -65,13 +65,13 @@ def regiao_plot(select_r):
 
     st.write(' ')
 
-    #Número de municipios da regiao
+    #Número de municipios da região
     num_municipios = regiao2['Municípios'].values
     st.write('### **Numero de municipios da região: **', str(num_municipios[0]))
     
     st.write(' ')
 
-    #Número de habitantes da regiao
+    #Número de habitantes da região
     hab_regiao = regiao['Habitantes por estado'].sum()
     st.write('### **Número de habitantes da região: **', str(hab_regiao))
 
