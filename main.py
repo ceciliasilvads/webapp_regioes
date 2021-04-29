@@ -54,7 +54,7 @@ def regiao_plot(select_r):
         st.image('https://cdn.britannica.com/25/142825-073-4C36265E.jpg', width=400)
     
     #Número de estados
-    num_estados = regiao2['Unidadesfederativas'].values
+    num_estados = regiao2['Unidadesfederativas'].sum()
     st.write('### **Numero de estados + Distrito Federal: **', str(num_estados[0]))
     
     st.write(' ')
