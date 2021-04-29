@@ -4,6 +4,8 @@
 
 # Dependências
 
+**Para instalar as dependências use:**
+
 `pip install matplotlib`
 
 `pip install pandas`
@@ -11,6 +13,12 @@
 `pip install streamlit`
 
 `pip install seaborn`
+
+`pip install unidecode`
+
+`pip install lxml`
+
+
 
 ## Você pode acessar o App em: 
 https://share.streamlit.io/cecellhax/webapp_regioes/main/main.py
