@@ -10,7 +10,7 @@ Uma aplicação onde se pode encontrar informações sobre as regiões brasileir
 
 Uma análise de dados é boa, mas uma análise onde pode ter interação do usuário é muito melhor e ainda com atualização automátautomática.
 
-Os dados são importados diretamente do site da [**wikipedia.org**](www.wikipedia.org) onde ao atualizar suas tabelas os dados da aplicação também serão atualizados.
+Os dados são importados diretamente do site da [**wikipedia.org**](www.wikipedia.org) especificamente em [**Listas de estadoa Brasileiros por número de municípios**](https://pt.wikipedia.org/wiki/Lista_de_estados_brasileiros_por_n%C3%BAmero_de_munic%C3%ADpios) onde ao atualizar suas tabelas os dados da aplicação também serão atualizados.
 
 São dados populacionais das 5 regiões do Brasil, a análise exploratória prévia estádisponível em **[regioes_brasileira.ipynb](https://github.com/cecellhax/webapp_regioes/blob/main/regioes_brasileira.ipynb)**
 
