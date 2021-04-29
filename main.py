@@ -5,7 +5,7 @@ import seaborn as sns
 from unidecode import unidecode
 from matplotlib.backends.backend_agg import RendererAgg
 
-#Contenção de erro no Maplotlib
+#Contenção de erro no Matplotlib
 _lock = RendererAgg.lock
 
 #Buscando os dados
