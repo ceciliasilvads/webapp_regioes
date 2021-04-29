@@ -18,7 +18,10 @@
 
 `pip install lxml`
 
+As versões estão disponiveis em [**requirements.txt**](https://github.com/cecellhax/webapp_regioes/blob/main/requirements.txt)
 
+# Você pode acessar o App em:
 
-## Você pode acessar o App em: 
 https://share.streamlit.io/cecellhax/webapp_regioes/main/main.py
+
+Deploy por [**streamlit.io**](https://streamlit.io/)
