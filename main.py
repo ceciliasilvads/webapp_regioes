@@ -122,8 +122,9 @@ st.write(regiao_plot(select_r=regi_select))
 st.markdown(''' **Por: Cecília Silva de Souza**
 
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-4682B4?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cecília)](https://www.linkedin.com/in/cecília)
-[![Medium Badge](https://img.shields.io/badge/-Medium-000000?style=flat-square&logo=Medium&logoColor=white&link=https://ceciliasilvads.medium.com/)](https://ceciliasilvads.medium.com/)
+[![Medium Badge](https://img.shields.io/badge/-Medium-000000?style=flat-square&logo=Medium&logoColor=white&link=https://ceciliasilvads.medium.com)](https://ceciliasilvads.medium.com)
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&logo=Gmail&logoColor=white&link=mailto:souza.cecilia@acad.ifma.edu.br)](mailto:souza.cecilia@acad.ifma.edu.br)
-[![Instagram Badge](https://img.shields.io/badge/-Instagram-E1306C?style=flat-square&logo=Instagram&logoColor=white&link=https://instagram.com/cecilia_souz4/)](https://instagram.com/cecilia_souz4/)
+[![Instagram Badge](https://img.shields.io/badge/-Instagram-E1306C?style=flat-square&logo=Instagram&logoColor=white&link=https://instagram.com/cecilia_souz4)](https://instagram.com/cecilia_souz4)
+[![Github Badge](https://img.shields.io/badge/-Github-000000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/cecellhax)](https://github.com/cecellhax)
 
 ''')
