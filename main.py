@@ -55,7 +55,7 @@ def regiao_plot(select_r):
     
     #Número de estados
     num_estados = regiao2['Unidadesfederativas'].values
-    st.write('### **Numero de unidades federativas: **', str(num_estados[0]))
+    st.write('### **Número de unidades federativas: **', str(num_estados[0]))
     
     st.write(' ')
 
@@ -67,7 +67,7 @@ def regiao_plot(select_r):
 
     #Número de municipios da região
     num_municipios = regiao2['Municípios'].values
-    st.write('### **Numero de municipios da região: **', str(num_municipios[0]))
+    st.write('### **Número de municipios da região: **', str(num_municipios[0]))
     
     st.write(' ')
 
