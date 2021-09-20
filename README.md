@@ -8,7 +8,7 @@
 
 Uma aplicação onde se pode encontrar informações sobre as regiões brasileiras, de modo interativo e simples.
 
-Uma análise de dados é boa, mas uma análise onde pode ter interação do usuário é muito melhor e ainda com atualização automátautomática.
+Uma análise de dados é boa, mas uma análise onde pode ter interação do usuário é muito melhor e ainda com atualização automática.
 
 Os dados são importados diretamente do site da [**wikipedia.org**](www.wikipedia.org) especificamente em [**Listas de estados brasileiros por número de municípios**](https://pt.wikipedia.org/wiki/Lista_de_estados_brasileiros_por_n%C3%BAmero_de_munic%C3%ADpios) onde ao atualizar suas tabelas os dados da aplicação também serão atualizados.
 
